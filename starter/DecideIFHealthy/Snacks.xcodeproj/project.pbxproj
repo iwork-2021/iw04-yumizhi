@@ -12,7 +12,7 @@
 		7BF6C662204818EC00606217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF6C661204818EC00606217 /* ViewController.swift */; };
 		7BF6C665204818EC00606217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6C663204818EC00606217 /* Main.storyboard */; };
 		7BF6C667204818ED00606217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6C666204818ED00606217 /* Assets.xcassets */; };
-		7CD7AC6C27648AD800154C9F /* SnackClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7AC6B27648AD800154C9F /* SnackClassification.mlmodel */; };
+		7CD7AC702764A7E700154C9F /* HealthyOrNot.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7AC6F2764A7E700154C9F /* HealthyOrNot.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		7BF6C664204818EC00606217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BF6C666204818ED00606217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF6C66B204818ED00606217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CD7AC6B27648AD800154C9F /* SnackClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SnackClassification.mlmodel; sourceTree = "<group>"; };
+		7CD7AC6F2764A7E700154C9F /* HealthyOrNot.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HealthyOrNot.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		7BF6C653204818EC00606217 = {
 			isa = PBXGroup;
 			children = (
-				7CD7AC6B27648AD800154C9F /* SnackClassification.mlmodel */,
+				7CD7AC6F2764A7E700154C9F /* HealthyOrNot.mlmodel */,
 				7BF6C65E204818EC00606217 /* Snacks */,
 				7BF6C65D204818EC00606217 /* Products */,
 			);
@@ -138,9 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF6C662204818EC00606217 /* ViewController.swift in Sources */,
+				7CD7AC702764A7E700154C9F /* HealthyOrNot.mlmodel in Sources */,
 				7BF6C660204818EC00606217 /* AppDelegate.swift in Sources */,
 				7B11BA832048333700D790AA /* CGImagePropertyOrientation.swift in Sources */,
-				7CD7AC6C27648AD800154C9F /* SnackClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
